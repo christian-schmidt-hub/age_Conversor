@@ -21,5 +21,8 @@ void calc_age(int age){
 int main(){
     int age = get_age();
     calc_age(age);
+    cin.ignore();
+    cout<<"\nEnter to exit...";
+    cin.get();
     return 0;
 }
